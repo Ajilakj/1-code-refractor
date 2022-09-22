@@ -24,20 +24,16 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav div {
+header ul {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-/* to remove the bullets*/
-header div ul {
     list-style-type: none;
 }
 
-header div ul li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -52,14 +48,12 @@ p {
     font-size: 16px;
 }
 
-/*image before sections */
+/*first <section> in <main> */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    background: url("../images/digital-marketing-meeting.jpg") center center /cover;
 }
 
 /* to align image left*/
@@ -84,7 +78,7 @@ p {
 /*sub-sections(search-engine-optimization,
 online-reputation-management, social-media-marketing)
  in section1*/
-.content div {
+.content figure {
     margin-bottom: 20px;
     padding: 50px;
     height: 326px; /*changed from 300 to 326 to align the bottom of 2 sections*/
@@ -102,11 +96,11 @@ online-reputation-management, social-media-marketing)
     font-size: 36px;
 }
 
-/*second section (right side)*/
+/* <aside> */
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    /* clear: both; */
     float: right;
     width: 20%;
     height: 100%;
@@ -115,7 +109,7 @@ online-reputation-management, social-media-marketing)
 }
 
 /*sub-sections(lead,brand,cost) in benefits*/
-.benefits div {
+.benefits figure {
     margin-bottom: 32px;
     color: #ffffff; 
 }
@@ -133,7 +127,7 @@ online-reputation-management, social-media-marketing)
 
 footer {
     padding: 30px;
-    clear: both;
+    /* clear: both; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }

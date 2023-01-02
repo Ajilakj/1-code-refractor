@@ -20,10 +20,6 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
-
 header ul {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +42,17 @@ a {
 
 p {
     font-size: 16px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
 }
 
 /*first <section> in <main> */
@@ -125,12 +132,6 @@ online-reputation-management, social-media-marketing)
     max-width: 150px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 @media screen and (max-width:1200px){
     nav{
         clear:both;
